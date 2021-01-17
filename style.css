@@ -167,6 +167,86 @@ footer {
     background-color: #2e353e;
     color: #ffffff;
     line-height: 30px;
-    text-align: center;
     padding: 45px;
+    text-align: center;
+}
+
+
+/*RESPONSIVE STYLES*/
+
+
+/*Smartphones styles*/
+
+@media all and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .menu-item {
+        display: initial;
+    }
+    .menu-item a div {
+        border-bottom: 1px solid #ffffff;
+    }
+    nav ul {
+        padding: 0px;
+    }
+    .featured {
+        padding: 0 10px;
+    }
+    .fp-video {
+        display: initial;
+        padding: 0px;
+        width: 100%;
+    }
+    .ft-article {
+        display: initial;
+        margin: 10px 0;
+        padding: 0 30px;
+        vertical-align: initial;
+        width: 100%;
+    }
+    .art-image,
+    .art-content {
+        display: initial;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/*Tablet Portrait styles*/
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .art-image {
+        width: 240px;
+    }
+    .art-content {
+        width: 430px;
+    }
+    .fp-video {
+        float: right;
+        padding: 1em;
+        width: 53%;
+    }
+    .ft-article {
+        font-size: 0.9em;
+        margin: 0px;
+        padding: 10px;
+        width: 38%;
+    }
+    .ft-article h1 {
+        font-size: 2em;
+    }
+}
+
+
+/*Tablet Landscape styles*/
+
+@media all and (min-width:1024px) and (max-width: 1385px) {
+    .art-image {
+        width: 210px;
+    }
+    .art-content {
+        width: 700px;
+    }
 }
