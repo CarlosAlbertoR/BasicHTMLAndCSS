@@ -159,3 +159,14 @@ figcaption {
 article h1 {
     border-bottom: 1px solid #000;
 }
+
+
+/*Footer's styles*/
+
+footer {
+    background-color: #2e353e;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
