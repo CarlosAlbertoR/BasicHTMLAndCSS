@@ -40,7 +40,7 @@ a:active {
     color: #ff0000;
 }
 
-.fp_video,
+.fp-video,
 .ft-article,
 .menu-item {
     display: inline-block;
@@ -85,4 +85,45 @@ nav {
 
 .menu-item a div {
     padding: 20px;
+}
+
+
+/*Featured section's styles*/
+
+.featured {
+    background-color: #f2f2f2;
+}
+
+.fp-video {
+    padding: 2em;
+    vertical-align: top;
+    width: 55%;
+}
+
+.ft-article {
+    padding: 2em;
+    vertical-align: top;
+    width: 30%;
+}
+
+
+/*Styles of botons*/
+
+.boton-container {
+    background-color: #ea6e39;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.boton-container:hover {
+    background-color: #1fbea4;
+}
+
+.boton-container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.boton {
+    padding: 15px;
 }
