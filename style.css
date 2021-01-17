@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    color: #0bc5d8;
+}
+
+a:hover {
+    color: #ea6e39;
+}
+
+a:visited {
+    color: #aaaaaa;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+.fp_video,
+.ft-article,
+.menu-item {
+    display: inline-block;
+}
+
+
+/*Width of page*/
+
+.container {
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+
+/*Logo*/
+
+.logo {
+    margin: 25px;
+    text-align: center;
+}
+
+
+/*Position and styles of menu*/
+
+nav {
+    background-color: #2e353e;
+    text-align: center;
+}
+
+.menu-item {
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    background-color: #0bc5d8;
+}
+
+.menu-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-item a div {
+    padding: 20px;
+}

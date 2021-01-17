@@ -4,35 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ejemplo HTML y CSS básico</title>
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <!--Header-->
         <header>
             <!--Logo-->
-            <div><img src="./img/logo.png" alt="Logo"></div>
+            <div class="logo"><img src="./img/logo.png" alt="Logo"></div>
 
             <!--Menu-->
             <nav>
                 <ul>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">
                             <div>Inicio</div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">
                             <div>Nosotros</div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">
                             <div>Servicios</div>
                         </a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a href="#">
                             <div>Contacto</div>
                         </a>
@@ -41,27 +42,27 @@
             </nav>
 
             <!--Banner-->
-            <div><img src="./img/banner.jpg" alt="Web Page's Banner"></div>
+            <div class="banner"><img src="./img/banner.jpg" alt="Web Page's Banner"></div>
         </header>
 
         <!--Section with a video and article-->
-        <section>
+        <section class="featured">
             <!--Video-->
-            <video controls>
+            <video class="fp-video" controls>
                 <source src="./video/video01.mp4" type="video/mp4">
                 <source src="./video/video01.ogv" type="video/ogg">
             </video>
 
             <!--Article-->
-            <article>
+            <article class="ft-article">
                 <h1>Título del Artículo</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nulla asperiores dignissimos minus consequuntur? Cum quia pariatur repellendus nisi, quidem alias. Amet iusto ut quibusdam temporibus sequi sint necessitatibus ad.</p>
             </article>
 
             <!--More Information boton-->
-            <div>
+            <div class="boton-container">
                 <a href="#">
-                    <div>Más Info.</div>
+                    <div class="boton">Más Info.</div>
                 </a>
             </div>
         </section>
@@ -70,17 +71,17 @@
         <section>
             <!--Article 2-->
             <article>
-                <figure>
+                <figure class="art-image">
                     <img src="./img/article02.jpg" alt="Article 2's image">
                     <figcaption>Artículo 2</figcaption>
                 </figure>
 
-                <div>
+                <div class="art-content">
                     <h1>Título del Artículo 2</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero necessitatibus error recusandae! Quas nesciunt eaque vitae, ducimus pariatur error ex aspernatur maiores, autem, totam dignissimos. Sequi deserunt voluptatem
                         laboriosam!
                     </p>
-                    <div>
+                    <div class="art-footer">
                         <a href="#1">Lorem, ipsum.</a> |
                         <a href="#2">Lorem, ipsum dolor.</a>
                     </div>
@@ -89,17 +90,17 @@
 
             <!--Article 3-->
             <article>
-                <figure>
+                <figure class="art-image">
                     <img src="./img/article03.jpg" alt="Article 3's image">
                     <figcaption>Artículo 3</figcaption>
                 </figure>
 
-                <div>
+                <div class="art-content">
                     <h1>Título del Artículo 3</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero necessitatibus error recusandae! Quas nesciunt eaque vitae, ducimus pariatur error ex aspernatur maiores, autem, totam dignissimos. Sequi deserunt voluptatem
                         laboriosam!
                     </p>
-                    <div>
+                    <div class="art-footer">
                         <a href="#1">Lorem, ipsum.</a> |
                         <a href="#2">Lorem, ipsum dolor.</a>
                     </div>
