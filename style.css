@@ -127,3 +127,35 @@ nav {
 .boton {
     padding: 15px;
 }
+
+
+/*Styles for the articles list*/
+
+article {
+    background-color: #f2f2f2;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.art-image {
+    display: inline-block;
+    margin-right: 10px;
+    width: 210px;
+}
+
+.art-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 730px;
+}
+
+figcaption {
+    background-color: #1fbea4;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+article h1 {
+    border-bottom: 1px solid #000;
+}
