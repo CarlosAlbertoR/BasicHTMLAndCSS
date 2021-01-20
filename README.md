@@ -1,4 +1,4 @@
-# BasicHTMLAndCSS
+# Basic HTML And CSS
 ![](./ScreenshotWebPage.png)
 
 # Description
